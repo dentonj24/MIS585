@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>MIS585 Brochure Site - Adams</title>
+    <meta name="description" content="Brochure Site">
+    <meta name="author" content="Jessica Adams">
+
+    <style>
+        header{background-color: #fff;}
+    
+        .headernavbox{
+                background-color: #01014de7 ;
+                color: #faf6ed;
+                padding: 2em;
+                margin: 5em;
+                position: center;
+                width:100%;
+            }
+        .navbutton{
+            border: 1px solid #fff;
+            padding: .5em;
+            margin: 2em;
+            position: center;
+        }
+         .navbuttonlayout{
+            display: flex;
+            justify-content: flex-end space-evenly;
+            align-items: flex-end;
+        }
+    </style>
+</head>
+<header>
+    <div class="headernavbox">
+        <h1>About Jessica Adams</h1>
+        <div class=navbuttonlayout>
+           <div class=navbutton>About</div>
+           <div class=navbutton>Work</div>
+           <div class=navbutton>Resume</div>
+           <div class=navbutton>Contact</div>
+            </div>
+    </div>
+</header>
+</html>
