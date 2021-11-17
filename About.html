@@ -9,38 +9,70 @@
     <meta name="author" content="Jessica Adams">
 
     <style>
-        header{background-color: #fff;}
-    
-        .headernavbox{
-                background-color: #01014de7 ;
-                color: #faf6ed;
-                padding: 2em;
-                margin: 5em;
-                position: center;
-                width:100%;
-            }
-        .navbutton{
-            border: 1px solid #fff;
-            padding: .5em;
-            margin: 2em;
-            position: center;
+        header {background-color: #f9f9f9;
+            padding: 2em;
+            color: #bfeee9;
+            width:100%;}
+        
+        .headertitlelayout{
+             display: flex;
+             justify-content: center;
+             align-items: center;
         }
-         .navbuttonlayout{
-            display: flex;
-            justify-content: flex-end space-evenly;
-            align-items: flex-end;
+</style>
+    <style> 
+        navigation {background-color: #bfeee9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;}
+
+        h1 { color: #e09679;
+        font-size: 3vw;
+        font-family: "new-spirit", serif;
+        font-style: normal;
+        font-weight: 500;}
+
+         .navbutton{
+            padding: .5em;
+            margin: 1em;
+            position: center;
+            border: 1px solid transparent
+        
+        }
+        a:link, a:visited {
+            color: #e09679;
+            border-radius: 10px;
+            border: 1px solid transparent;
+            position: center;
+            padding: .5em;
+            text-decoration: none;
+        }
+        a:hover {
+            border: 2px solid #fff;
+            border-radius: 10px;
+            background-color: #e09679;
+            color: #bfeee9;
+            position: center;
+            padding: .5em;
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        body {background-color: #fff
         }
     </style>
 </head>
 <header>
-    <div class="headernavbox">
-        <h1>About Jessica Adams</h1>
-        <div class=navbuttonlayout>
-           <div class=navbutton>About</div>
-           <div class=navbutton>Work</div>
-           <div class=navbutton>Resume</div>
-           <div class=navbutton>Contact</div>
+        <div class="headertitlelayout">
+            <img src="https://dentonj24.github.io/MIS585/JA%20Logo%20Final.png" alt="Jessica Adams Logo"style="max-width:100%;height:auto">
             </div>
-    </div>
 </header>
+
+<navigation>
+           <div class=navbutton><h1><a href="https://dentonj24.github.io/MIS585/index.html">Home</a></h1></div>
+           <div class=navbutton><h1><a href="https://dentonj24.github.io/MIS585/Creative.html">Creative</a></h1></div>
+           <div class=navbutton><h1><a href="https://dentonj24.github.io/MIS585/Adams_Jessica_Resume.pdf" target="_blank">Resume</a></h1></div>
+           <div class=navbutton><h1><a href="https://dentonj24.github.io/MIS585/Contact.html">Contact</a></h1></div>
+</navigation>
 </html>
